@@ -21,9 +21,6 @@
 
 </style>
 
-var elem = $("#wrapper");
-
-
 <html>
   <head>
     <title>IS IT HAPPENING?</title>
@@ -35,14 +32,18 @@ var elem = $("#wrapper");
 			var offset = $("#logo-iih").offset();
 			var x = $("#logo-iih").offset().left;
 			var y = $("#logo-iih").offset().top;
-			console.log('x: ' + x + ' y: ' + y);
-			});
+
+			$("#menu").css("marginLeft") = "x";
+
+		});
+
+
 	</script>
 
   </head>
 
   <body>
-  		<p>Hello</p><p>2nd Paragraph</p>
+  		<p id="menu">Hello</p>
 
         <div id="header">
             <img src="images/logo-iih.png" id="logo-iih">
