@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 
 <style>
-
 	#header {
 		position: fixed;
 		width: 75%;
@@ -11,26 +10,26 @@
 		top: calc(40%);
 		z-index: 0;
 	}
-
 	#header img {
 		max-width: 100%;
 		max-height: 100%;
 	}
-
 </style>
 
+<script>
+	var img = $( "img" );
+	var offset = img.offset();
+	p.html( "left: " + offset.left + ", top: " + offset.top );
+</script>
+
 <html>
-  
   <head>
     <title>IS IT HAPPENING?</title>
   </head>
 
   <body>
-
         <div id="header">
             <img src="images/logo-iih.png">
         </div>
-    
   </body>
-    
 </html>
