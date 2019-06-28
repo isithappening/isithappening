@@ -31,10 +31,12 @@ var elem = $("#wrapper");
 	<script src="https://code.jquery.com/jquery-3.4.0.js"></script>
 
 	<script>
-		var offset = $("#logo-iih").offset();
-		var x = $("#logo-iih").offset().left;
-		var y = $("#logo-iih").offset().top;
-		console.log('x: ' + x + ' y: ' + y);
+		$(document).ready(function() {	
+			var offset = $("#logo-iih").offset();
+			var x = $("#logo-iih").offset().left;
+			var y = $("#logo-iih").offset().top;
+			console.log('x: ' + x + ' y: ' + y);
+			});
 	</script>
 
   </head>
