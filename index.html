@@ -21,6 +21,9 @@
 
 </style>
 
+var elem = $("#wrapper");
+
+
 <html>
   <head>
     <title>IS IT HAPPENING?</title>
@@ -28,11 +31,10 @@
 	<script src="https://code.jquery.com/jquery-3.4.0.js"></script>
 
 	<script>
-		var p = $( "p:last" );
-		var pos = $("#header").position();
-		p.html( "left: " + pos.left + ", top: " + pos.top );
-		html( "left: " + pos.left + ", top: " + pos.top );
-		alert( "left: " + pos.left + ", top: " + pos.top );
+		var offset = $("#logo-iih").offset();
+		var x = $("#logo-iih").offset().left;
+		var y = $("#logo-iih").offset().top;
+		console.log('x: ' + x + ' y: ' + y);
 	</script>
 
   </head>
