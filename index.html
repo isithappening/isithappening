@@ -29,12 +29,12 @@
 
 	<script>
 		var p = $( "p:last" );
-		var offset = $("#header").offset();
-		p.html( "left: " + offset.left + ", top: " + offset.top );
-		html( "left: " + offset.left + ", top: " + offset.top );
-		alert( "left: " + offset.left + ", top: " + offset.top );
+		var pos = $("#header").position();
+		p.html( "left: " + pos.left + ", top: " + pos.top );
+		html( "left: " + pos.left + ", top: " + pos.top );
+		alert( "left: " + pos.left + ", top: " + pos.top );
 	</script>
-    
+
   </head>
 
   <body>
