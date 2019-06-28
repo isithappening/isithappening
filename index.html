@@ -19,8 +19,10 @@
 <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
 
 <script>
-	var offset = $("#logo-iih").pos();
-	p.html( "left: " + pos.left + ", top: " + pos.top );
+	var offset = $("#logo-iih").offset();
+	p.html( "left: " + offset.left + ", top: " + offset.top );
+	html( "left: " + offset.left + ", top: " + offset.top );
+	alert( "left: " + offset.left + ", top: " + offset.top );
 </script>
 
 <html>
