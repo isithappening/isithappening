@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 <style>
-	#header {
+	#banner {
 		position: fixed;
 		width: 75%;
 		left: 50%;
@@ -11,7 +11,7 @@
 		z-index: 0;
 	}
 
-	#header img {
+	#banner img {
 		max-width: 100%;
 	}
 
@@ -27,6 +27,19 @@
 		float: right;
 		display: block;
 		font-size: 1.2em;
+	}
+
+	#footer {
+		width: 75%;
+		margin: auto;
+	}
+
+	#cc {
+		float: left;
+	}
+
+	#f_sm_icons {
+		float: right;
 	}
 
 </style>
@@ -45,12 +58,26 @@
 
   		<div id="menu">
   			<div id="menu_buttons">
-  				<a>about, happenings</a>
+  				<a href="#">about, happenings</a>
 			</div>
   		</div>
 
-        <div id="header">
+        <div id="banner">
             <img src="images/logo-iih.png" id="logo-iih">
         </div>
+
+        <div id="footer">
+			<div id="cc">
+  				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+			</div>
+
+    		<div id="f_sm_icons">
+  				<img src="images/sm-fb.png">
+  				<img src="images/sm-ig.png">
+  				<img src="images/sm-yt.png">
+			</div>
+        </div>
+
+
   </body>
 </html>
