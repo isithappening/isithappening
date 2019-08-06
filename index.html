@@ -2,6 +2,19 @@
 <!DOCTYPE html>
 
 <style>
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body {
+		font-size: 10px;
+	}
+
+	#menu_buttons a:link {text-decoration: none; color: black;}
+	#menu_buttons a:visited {text-decoration: none; color: black;}
+	#menu_buttons a:hover {text-decoration: underline;}
+
 	#banner {
 		position: fixed;
 		width: 75%;
@@ -9,6 +22,31 @@
 		top: calc(40%);
 		margin-left: -37.5%;
 		z-index: 0;
+	}
+	
+	#textfield {
+		position: fixed;
+		width: 75%;
+		left: 50%;
+		top: calc(40%);
+		margin-left: -37.5%;
+		z-index: 0;
+	}
+
+	#textfield p {
+		display: inline;
+		line-height: 1.6;
+		font-size: 2rem;
+		text-align: justify;
+		font-family: Arial;
+		margin: 0px;
+	}
+
+	.logo_in_text {
+		display: inline-block;
+		max-height: 2.2rem;
+		margin-bottom: -0.33rem;
+		margin-right: 0.33rem;
 	}
 
 	#banner img {
@@ -21,12 +59,12 @@
 	}
 
 	#menu_buttons {
-		margin-top: 1em;
+		margin-top: 1rem;
+		font-size: 1.5rem;
 		font-family: Arial;
 		font-weight: 1;
 		float: right;
 		display: block;
-		font-size: 1.2em;
 	}
 
 	#footer {
@@ -34,38 +72,47 @@
 		position: fixed;
 		left: 50%;
 		margin-left: -37.5%;
-		bottom: 0;
+		bottom: 0.5rem;
 		width: 75%;
 	}
 
-	#footer p {
-		color: gray;
-	}
-
 	#cc {
-		font-size: 1em;
+		font-size: 1.6rem;
 		float: left;
+		max-width: 67%;
+		position: absolute;
+		bottom: 0;
+		text-align: justify;
 	}
 
-	#f_sm_icons {
+	#sm {
 		float: right;
 	}
 
-	.icon {
+	.cc_icon {
 		display: inline;
-		height: 1.5em;
+		height: 1rem;
+		margin-right: 0.2rem;
+		margin-bottom: -0.2rem;
+	}
+
+	.sm_icon {
+		display: inline;
+		height: 2rem;
 	}
 
 	.licence {
 		display: inline;
 		margin: 0px;
+		font-size: 0.8rem;
+		text-indent: 0.67rem;
 	}
 
-	#menu a {
+	#menu_buttons a {
 		display: inline;
 	}
 
-	#menu p {
+	#menu_buttons p {
 		display: inline;
 	}
 
