@@ -1,0 +1,22 @@
+	
+	/* GENERAL */
+
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body {
+		font-size: 2vw;
+		background-color: yellow;
+	}
+
+	/* LINKS */
+
+	#menu_buttons a:link {text-decoration: none; color: black;}
+	#menu_buttons a:visited {text-decoration: none; color: black;}
+	#menu_buttons a:hover {text-decoration: underline;}
+
+	/* HEADINGS */
+
+	/* ... */
