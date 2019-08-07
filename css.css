@@ -3,17 +3,17 @@
 
 	* {margin: 0px; padding: 0px;}
 
-	#centerdiv {max-width: 75%; margin: 0 auto;}
+	#centerdiv {width: 75%; margin: 0 auto;}
 
 	@media screen and (max-width: 1080px) {
-		#centerdiv {max-width: 95%; margin: 0 auto;}
+		#centerdiv {width: 95%; margin: 0 auto;}
 	}
 
 	p {color: black;}
 
 	#centerdiv {position: relative;}
-	#bannerdiv {position: absolute; max-width: 100%;}
-	#bannerdiv img {max-width: 100%;}
+	#bannerdiv {position: absolute; width: 100%;}
+	#bannerdiv img {width: 100%;}
 
 	/* LINKS */
 
