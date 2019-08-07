@@ -3,8 +3,6 @@
 
 	* {margin: 0px; padding: 0px;}
 
-	body {background-color: lightblue;}
-
 	#centerdiv {max-width: 75%; margin: 0 auto;}
 
 	@media screen and (max-width: 1080px) {
@@ -13,8 +11,8 @@
 
 	p {color: black;}
 
-	#centerdiv {background-color: black;}
-	#bannerdiv {max-width: 100%;}
+	#centerdiv {position: relative; background-color: black;}
+	#bannerdiv {position: absolute; max-width: 100%;}
 
 	/* LINKS */
 
