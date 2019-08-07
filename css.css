@@ -9,8 +9,6 @@
 		#centerdiv {width: 95%; margin: 0 auto;}
 	}
 
-	p {color: black;}
-
 	#centerdiv {position: relative;}
 	#bannerdiv {position: absolute; width: 100%;}
 	#bannerdiv img {width: 100%;}
