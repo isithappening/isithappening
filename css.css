@@ -5,15 +5,16 @@
 
 	body {background-color: lightblue;}
 
-	#centerdiv {max-width: 75%;}
+	#centerdiv {max-width: 75%; margin: 0 auto;}
 
 	@media screen and (max-width: 1080px) {
-		#centerdiv {max-width: 90%;}
+		#centerdiv {max-width: 90%; margin: 0 auto; }
 	}
 
 	p {color: black;}
 
 	#centerdiv {background-color: black;}
+}
 
 	/* LINKS */
 
