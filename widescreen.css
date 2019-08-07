@@ -11,6 +11,10 @@
 		background-color: yellow;
 	}
 
+	p {
+		font-size: 8rem;
+	}
+
 	/* LINKS */
 
 	#menu_buttons a:link {text-decoration: none; color: black;}
