@@ -10,8 +10,8 @@
 	}
 
 	#centerdiv {position: relative;}
-	#bannerdiv {position: absolute; width: 100%;}
-	#bannerdiv img {width: 100%; top: calc(40%);}
+	#bannerdiv {position: absolute; width: 100%; top: calc(40%);}
+	#bannerdiv img {width: 100%;}
 
 	/* LINKS */
 
