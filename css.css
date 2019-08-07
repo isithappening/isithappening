@@ -10,7 +10,7 @@
 	}
 
 	#centerdiv {position: relative;}
-	#bannerdiv {position: absolute; width: 100%; top: 10%;}
+	#bannerdiv {position: absolute; width: 100%; margin-top: 10%;}
 	#bannerdiv img {width: 100%;}
 
 	/* LINKS */
