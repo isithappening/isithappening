@@ -6,13 +6,13 @@
 	#centerdiv {max-width: 75%; margin: 0 auto;}
 
 	@media screen and (max-width: 1080px) {
-		#centerdiv {max-width: 90%; margin: 0 auto;}
+		#centerdiv {max-width: 95%; margin: 0 auto;}
 	}
 
 	p {color: black;}
 
 	#centerdiv {position: relative; background-color: black;}
-	#bannerdiv {position: absolute; max-width: 100%;}
+	#bannerdiv {position: absolute; max-width: 100%; }
 	#bannerdiv img {max-width: 100%;}
 
 	/* LINKS */
