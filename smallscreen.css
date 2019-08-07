@@ -7,12 +7,12 @@
 	}
 
 	body {
-		font-size: 10px;
+		font-size: 20px;
 		background-color: lightblue;
 	}
 
 	p {
-		font-size: 4rem;
+		color: green;
 	}
 
 
