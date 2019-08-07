@@ -10,8 +10,8 @@
 	}
 
 	#centerdiv {position: relative;}
-	#bannerdiv {position: fixed; width: 75%; left: 50%; top: calc(40%); margin-left: -37.5%;}
-	#bannerdiv img {width: 100%;}
+	#bannerdiv {position: absolute; display: table; width: 75%;}
+	#bannerdiv img {display: table-cell; width: 100%; vertical-align: middle;}
 
 	/* LINKS */
 
