@@ -116,6 +116,10 @@
 		display: inline;
 	}
 
+	#mapid {height: 20%;}
+
+
+
 </style>
 
 <html>
@@ -124,8 +128,16 @@
 	  
     <link rel="icon" type="image/png" href="https://isithappening.github.io/images/logo/favicon-32x32.png" sizes="32x32"/>
     <link rel="stylesheet" type="text/css" href="_/css/css.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
 
 	<script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="crossorigin=""></script>
+
+    <script type="text/javascript">
+    	var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+	</script>
 
   </head>
 
@@ -142,6 +154,10 @@
 			<p>is Rotterdam's non-profit pay-off, posing questions to the answer </p>
 			<a href="https://rotterdammakeithappen.nl"><img src="http://isithappening.github.io/images/logo/logo-mih.png" class="logo_in_text"></a>
         </div>
+
+        <div id="map">
+
+    	</div>
 
         <div id="footer">
 			<div id="cc">
