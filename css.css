@@ -11,7 +11,7 @@
 
 	p {color: black;}
 
-	#centerdiv {position: relative; background-color: black;}
+	#centerdiv {position: relative;}
 	#bannerdiv {position: absolute; max-width: 100%;}
 	#bannerdiv img {max-width: 100%;}
 
