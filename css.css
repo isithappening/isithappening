@@ -7,11 +7,10 @@
 
 	@media screen and (max-width: 1080px) {
 		#centerdiv {width: 95%; margin: 0 auto;}
-		#bannerdiv {position: fixed; width: 95%; left: 50%; top: calc(40%); margin-left: -47.5%;}
 	}
 
 	#centerdiv {position: relative;}
-	#bannerdiv {position: fixed; width: 75%; left: 50%; top: calc(40%); margin-left: -37.5%;}
+	#bannerdiv {position: fixed; width: 100%; top: calc(40%);}
 	#bannerdiv img {width: 100%;}
 
 	/* LINKS */
