@@ -9,7 +9,7 @@
 		#centerdiv {width: 95%; margin: 0 auto;}
 	}
 
-	#centerdiv {position: relative;}
+	#centerdiv {position: relative; min-height: 100%;}
 	#bannerdiv {position: absolute; width: 100%; margin-top: calc(40%);}
 	#bannerdiv img {width: 100%;}
 
