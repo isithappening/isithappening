@@ -7,8 +7,7 @@
 	#bannerdiv {width: 75%; left: 50%; top: calc(40%); margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
 	#centerdiv {position: relative; max-width: 75% 0 auto; border: 1px solid red;}
-	#menu {position: absolute; border: 1px solid red;}
-	#menu_buttons {position: absolute; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1; float: right; border: 1px solid red;}
+	#menu {position: absolute; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1; float: right; border: 1px solid red; border: 1px solid red;}
 	#menu_buttons a:link {text-decoration: none; color: black;}
 	#menu_buttons a:visited {text-decoration: none; color: black;}
 	#menu_buttons a:hover {text-decoration: underline;}
