@@ -9,7 +9,7 @@
 	#bannerdiv {width: 75%; left: 50%; top: calc(40%); margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
 	#centerdiv {width: 75% 0 auto; border: 1px solid red;}
-	#menu {position: fixed; right: 12.5%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1; border: 1px solid red;}
+	#menu {position: fixed; right: 12.5%; max-width: 100%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1; border: 1px solid red;}
 	#menu a:link {text-decoration: none; color: black;}
 	#menu a:visited {text-decoration: none; color: black;}
 	#menu a:hover {text-decoration: underline;}
