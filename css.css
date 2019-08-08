@@ -9,7 +9,7 @@
 
 	#bannerdiv {position: fixed;}
 	#bannerdiv img {max-width: 100%;}
-	#centerdiv {width: 75% 0 auto; border: 1px solid red;}
+	#centerdiv {width: 75% 0 auto;}
 	#menu a:link {text-decoration: none; color: black;}
 	#menu a:visited {text-decoration: none; color: black;}
 	#menu a:hover {text-decoration: underline;}
