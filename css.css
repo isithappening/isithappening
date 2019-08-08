@@ -3,6 +3,8 @@
 
 	* {margin: 0px; padding: 0px;}
 
+	body {font-size: 12px}
+
 	#bannerdiv {position: fixed;}
 	#bannerdiv {width: 75%; left: 50%; top: calc(40%); margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
