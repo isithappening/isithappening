@@ -13,6 +13,8 @@
 	#menu_buttons a:link {text-decoration: none; color: black;}
 	#menu_buttons a:visited {text-decoration: none; color: black;}
 	#menu_buttons a:hover {text-decoration: underline;}
+	#menu_buttons a {display: inline;}
+	#menu_buttons p {display: inline;}
 
 	@media screen and (max-width: 1080px) {
 		#bannerdiv {width: 95%; left: 50%; top: calc(40%); margin-left: -47.5%;}
