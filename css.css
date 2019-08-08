@@ -13,13 +13,7 @@
 	#menu p {display: inline;}
 
 	@media (min-width: 1px) {
-		html, body {font-size: 10px;}
-		#bannerdiv {width: 95%; left: 50%; top: calc(40%); margin-left: -47.5%;}
-		#menu {position: fixed; right: 2.5%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}
-	}
-
-	@media (min-width: 640px) {
-		html, body {font-size: 14px;}
+		html, body {font-size: 20px;}
 		#bannerdiv {width: 95%; left: 50%; top: calc(40%); margin-left: -47.5%;}
 		#menu {position: fixed; right: 2.5%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}
 	}
