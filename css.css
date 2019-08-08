@@ -9,35 +9,24 @@
 
 	#bannerdiv {position: fixed;}
 	#bannerdiv img {max-width: 100%;}
-	#menu a:link {text-decoration: none; color: black;}
-	#menu a:visited {text-decoration: none; color: black;}
-	#menu a:hover {text-decoration: underline;}
-	#menu a {display: inline;}
-	#menu p {display: inline;}
-
 	#centerdiv {width: 75%; margin: auto;}
 	.flex-container {padding: 0; margin: 0; list-style: none; display: flex;}
 	.space-between {justify-content: space-between;}
-	.flex-item {font-family: Arial; font-weight: 1; width: auto; height: 1em; margin: 0.1em; margin-top: 1em; line-height: 1; color: black; font-size: 1.4em; text-align: center;}
-
-	/*@media screen and (max-width: 1080px) {
-		html, body {font-size: 16px;}
-		#bannerdiv {width: 95%; left: 50%; top: calc(42%); margin-left: -47.5%;}
-		#menu {position: fixed; right: 2.5%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}
-	}*/
+	.flex-item {font-family: Arial; font-weight: 1; width: auto; height: 1em; margin: 0.2em; margin-top: 0.6em; line-height: 1; color: black; font-size: 1.4em; text-align: center;}
 
 	@media (max-device-width: 1080px) and (orientation: portrait) {
 		html, body {font-size: 32px;}
-		/*#bannerdiv {width: 95%; left: 50%; top: calc(42%); margin-left: -47.5%;}
-		#menu {position: fixed; right: 2.5%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}*/
 	}
 
 	@media (max-device-width: 1080px) and (orientation: landscape) {
 		html, body {font-size: 16px;}
-		/*#menu {position: fixed; right: 12.5%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}*/
 	}
 
 	/* LINKS */
+
+	a:link {text-decoration: none; color: black;}
+	a:visited {text-decoration: none; color: black;}
+	a:hover {text-decoration: underline;}
 
 	/* HEADINGS */
 
