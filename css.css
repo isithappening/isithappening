@@ -8,7 +8,7 @@
 	#bannerdiv img {max-width: 100%;}
 	#centerdiv {width: 75% 0 auto; border: 1px solid red;}
 	#menu {position: fixed; right: 12.5%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1; border: 1px solid red;}
-	ul li {margin: 0px; padding: 0 px; text-decoration: none; display: inline;}
+	ul li {list-style-type: none; text-decoration: none; display: inline;}
 	#menu_buttons a:link {text-decoration: none; color: black;}
 	#menu_buttons a:visited {text-decoration: none; color: black;}
 	#menu_buttons a:hover {text-decoration: underline;}
