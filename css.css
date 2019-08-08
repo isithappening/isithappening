@@ -9,12 +9,17 @@
 
 	#bannerdiv {position: fixed;}
 	#bannerdiv img {max-width: 100%;}
-	#centerdiv {width: 75% 0 auto;}
 	#menu a:link {text-decoration: none; color: black;}
 	#menu a:visited {text-decoration: none; color: black;}
 	#menu a:hover {text-decoration: underline;}
 	#menu a {display: inline;}
 	#menu p {display: inline;}
+
+	#centerdiv {width: 75%; margin: auto;}
+	.flex-container {padding: 0; margin: 0; list-style: none; display: flex;}
+	.space-between {justify-content: space-between;}
+	.space-between li {background: lightgreen;}
+	.flex-item {font-family: Arial; font-weight: 1; padding: 10px; width: auto; height: 50px; margin: 5px; line-height: 50px; color: black; font-size: 2em; text-align: center;}
 
 	/*@media screen and (max-width: 1080px) {
 		html, body {font-size: 16px;}
