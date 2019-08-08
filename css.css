@@ -7,6 +7,12 @@
 	#bannerdiv {position: fixed;}
 	#bannerdiv {width: 75%; left: 50%; top: calc(40%); margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
+	#centerdiv {position: relative; width: 75% 0 auto;}
+	#menu {position: absolute; width: 100%;}
+	#menu_buttons {margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;float: right; display: inline-block;}
+	#menu_buttons a:link {text-decoration: none; color: black;}
+	#menu_buttons a:visited {text-decoration: none; color: black;}
+	#menu_buttons a:hover {text-decoration: underline;}
 
 	@media screen and (max-width: 1080px) {
 		#bannerdiv {width: 95%; left: 50%; top: calc(40%); margin-left: -47.5%;}
@@ -14,9 +20,7 @@
 
 	/* LINKS */
 
-	#menu_buttons a:link {text-decoration: none; color: black;}
-	#menu_buttons a:visited {text-decoration: none; color: black;}
-	#menu_buttons a:hover {text-decoration: underline;}
+	
 
 	/* HEADINGS */
 
