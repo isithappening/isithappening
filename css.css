@@ -16,7 +16,7 @@
 	#menu a {display: inline;}
 	#menu p {display: inline;}
 
-	@media (max-width: 1136px) {
+	@media (max-width: 1080px) {
 		html, body {font-size: 32px;}
 		#bannerdiv {width: 95%; left: 50%; top: calc(40%); margin-left: -47.5%;}
 		#menu {position: fixed; right: 2.5%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}
