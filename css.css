@@ -4,7 +4,7 @@
 	* {margin: 0px; padding: 0px;}
 
 	html, body {font-size: 16px;}
-	#bannerdiv {width: 75%; left: 50%; top: calc(42%); margin-left: -37.5%;}
+	#bannerdiv {width: 75%; left: 50%; top: calc(38%); margin-left: -37.5%;}
 	#menu {position: fixed; right: 12.5%; max-width: 100%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}
 
 	#bannerdiv {position: fixed;}
