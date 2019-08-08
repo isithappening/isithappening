@@ -3,6 +3,10 @@
 
 	* {margin: 0px; padding: 0px;}
 
+	html, body {font-size: 16px;}
+	#bannerdiv {width: 75%; left: 50%; top: calc(40%); margin-left: -37.5%;}
+	#menu {position: fixed; right: 12.5%; max-width: 100%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}
+
 	#bannerdiv {position: fixed;}
 	#bannerdiv img {max-width: 100%;}
 	#centerdiv {width: 75% 0 auto; border: 1px solid red;}
@@ -12,18 +16,11 @@
 	#menu a {display: inline;}
 	#menu p {display: inline;}
 
-	@media (min-width: 1px) {
+	@media (max-width: 1136px) {
 		html, body {font-size: 32px;}
 		#bannerdiv {width: 95%; left: 50%; top: calc(40%); margin-left: -47.5%;}
 		#menu {position: fixed; right: 2.5%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}
 	}
-
-	@media (min-width: 1137px) {
-		html, body {font-size: 16px;}
-		#bannerdiv {width: 75%; left: 50%; top: calc(40%); margin-left: -37.5%;}
-		#menu {position: fixed; right: 12.5%; max-width: 100%; margin-top: 1rem; font-size: 1.5rem; font-family: Arial; font-weight: 1;}
-	}
-
 
 	/* LINKS */
 
