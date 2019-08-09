@@ -30,8 +30,8 @@
 
 	/* ABOUT SPECIFIC */
 
-	.logo_in_text {display: inline-block; max-height: 2.2rem; margin-bottom: -0.33rem; margin-right: 0.33rem;}
+	.logo_in_text {display: inline-block; max-height: 2.2em; margin-bottom: -0.33em; margin-right: 0.33em;}
 	#textfield_intro {position: relative; width: 75%; margin: auto;}
-	#textfield_intro p {display: inline; line-height: 1.6; font-size: 2rem; text-align: justify; font-family: Arial; border: 5px solid black;}
+	#textfield_intro p {display: inline; line-height: 1.6; font-size: 2em; text-align: justify; font-family: Arial;}
 
 	/* ... */
