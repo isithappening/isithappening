@@ -30,6 +30,6 @@
 
 	#textfield_intro {width: 75%; margin: auto;}
 	#textfield_intro p {display: inline; line-height: 1.6; font-size: 2em; text-align: justify; font-family: Arial;}
-	.logo_in_text {display: inline-block; max-height: 2em; margin-bottom: -0.33em; margin-right: 0.33em;}
+	.logo_in_text {display: inline; max-height: 2em; margin-bottom: -0.33em; margin-right: 0.33em;}
 
 	/* ... */
