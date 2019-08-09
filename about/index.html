@@ -2,134 +2,18 @@
 <!DOCTYPE html>
 
 <style>
-	* {
-		margin: 0px;
-		padding: 0px;
-	}
-
-	body {
-		font-size: 10px;
-	}
-
-	#menu_buttons a:link {text-decoration: none; color: black;}
-	#menu_buttons a:visited {text-decoration: none; color: black;}
-	#menu_buttons a:hover {text-decoration: underline;}
-
-	#banner {
-		position: fixed;
-		width: 75%;
-		left: 50%;
-		top: calc(40%);
-		margin-left: -37.5%;
-		z-index: 0;
-	}
-	
-	#textfield_intro {
-		position: fixed;
-		width: 75%;
-		left: 50%;
-		top: calc(40%);
-		margin-left: -37.5%;
-		z-index: 0;
-	}
-
-	#textfield_intro p {
-		display: inline;
-		line-height: 1.6;
-		font-size: 2rem;
-		text-align: justify;
-		font-family: Arial;
-		margin: 0px;
-	}
-
-	.logo_in_text {
-		display: inline-block;
-		max-height: 2.2rem;
-		margin-bottom: -0.33rem;
-		margin-right: 0.33rem;
-	}
-
-	#banner img {
-		max-width: 100%;
-	}
-
-	#menu {
-		width: 75%;
-		margin: auto;
-	}
-
-	#menu_buttons {
-		margin-top: 1rem;
-		font-size: 1.5rem;
-		font-family: Arial;
-		font-weight: 1;
-		float: right;
-		display: block;
-	}
-
-	#footer {
-		font-family: Arial;
-		position: fixed;
-		left: 50%;
-		margin-left: -37.5%;
-		bottom: 0.5rem;
-		width: 75%;
-	}
-
-	#cc {
-		font-size: 1.6rem;
-		float: left;
-		max-width: 67%;
-		position: absolute;
-		bottom: 0;
-		text-align: justify;
-	}
-
-	#sm {
-		float: right;
-	}
-
-	.cc_icon {
-		display: inline-block;
-		height: 1rem;
-		margin-right: 0.2rem;
-		margin-bottom: -0.2rem;
-	}
-
-	.sm_icon {
-		display: inline;
-		height: 2rem;
-	}
-
-	.licence {
-		display: inline;
-		margin: 0px;
-		font-size: 0.8rem;
-		text-indent: 0.67rem;
-	}
-
-	#menu_buttons a {
-		display: inline;
-	}
-
-	#menu_buttons p {
-		display: inline;
-	}
-
-	#mapid {
-		position: fixed;
-		top: calc(40%);
-		left: 12.5%;
-	}
-
 
 </style>
 
 <html>
+
   <head>
     <title>IS IT HAPPENING?</title>
 	  
-    <link rel="icon" type="image/png" href="https://isithappening.github.io/images/logo/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="https://isithappening.github.io/images/icons/favicon-32x32.png" sizes="32x32"/>
+
+    <link rel="stylesheet" href="https://isithappening.github.io/css.css">
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
    crossorigin=""/>
@@ -141,30 +25,29 @@
 
   <body>
 
+	<div id="centerdiv">
+		<ul class="flex-container space-between">
+			<li class="flex-item"><a href="https://isithappening.github.io/">home</a></li>
+			<li class="flex-item"><a href="https://isithappening.github.io/about">about</a></li>
+			<li class="flex-item"><a href="https://isithappening.github.io/actions">actions</a></li>
+			<li class="flex-item"><a href="https://isithappening.github.io/contact">contact</a></li>
+		</ul>
+	</div>
+
+	<!--
   		<div id="menu">
-  			<div id="menu_buttons">
-  				<a href="https://isithappening.github.io/">home</a><p>, </p><a href="https://isithappening.github.io/about">about</a><p>, </p><a href="https://isithappening.github.io/actions">actions</a><p>, </p><a href="https://isithappening.github.io/contact">contact</a>
-			</div>
-  		</div>
+			<a href="https://isithappening.github.io/">home</a><p>, </p><a href="https://isithappening.github.io/about">about</a><p>, </p><a href="https://isithappening.github.io/actions">actions</a><p>, </p><a href="https://isithappening.github.io/contact">contact</a>
+		</div>
 
-        <div id="textfield_intro">
-        	<img src="https://isithappening.github.io/images/logo/logo-iih.png" class="logo_in_text" align="bottom">
-			<p>is Rotterdam's non-profit pay-off, posing questions to the answer </p>
-			<a href="https://rotterdammakeithappen.nl"><img src="https://isithappening.github.io/images/logo/logo-mih.png" class="logo_in_text"></a>
+  		<div id="centerdiv">
         </div>
+	-->
 
-        <div id="footer">
-			<div id="cc">
-  				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width: 0" src="https://isithappening.github.io/images/icons/icons-cc.svg" class="cc_icon"></a><p class="licence">This project exists under a Creative Commons licence which allows for re-use without financial gain.</p>
-			</div>
+        <div id="bannerdiv">
+			<img src="https://isithappening.github.io/images/logo/logo-iih.svg">
+		</div>
 
-    		<div id="sm">
-  				<a href="https://www.instagram.com/rdam.isithappening/"><img src="https://isithappening.github.io/images/icons/icons-ig.svg" class="sm_icon"></a>
-  				<a href="https://www.youtube.com/channel/UCBp9zCatv7RJv1dYFsuTpEQ"><img src="https://isithappening.github.io/images/icons/icons-yt.svg" class="sm_icon"></a>
-  				<a href="https://www.facebook.com/rdam.isithappening/"><img src="https://isithappening.github.io/images/icons/icons-fb.svg" class="sm_icon"></a>
-			</div>
-        </div>
-
+	
 
   </body>
 </html>
