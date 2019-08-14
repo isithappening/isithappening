@@ -28,7 +28,7 @@
 
 	/* ABOUT SPECIFIC */
 
-	#textfield_intro {max-width: 100%; max-height: 100%; padding: 25%;}
+	#textfield_intro {max-width: 100%; max-height: 100%; padding: 20%;}
 	#textfield_intro p {line-height: 1.6; font-size: 2em; text-align: justify; font-family: Arial;}
 	.logo_in_text {display: inline-block; max-height: 2em; margin-bottom: -0.33em; margin-right: 0.33em;}
 
