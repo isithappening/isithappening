@@ -8,7 +8,7 @@
 	#menufield {position: fixed; width: 75vw; left: 50%; margin-left: -37.5%; border: 0px solid red;}
 	.flex-container {padding: 0; margin: 0; list-style: none; display: flex;}
 	.space-between {justify-content: space-between;}
-	.flex-item {font-family: Arial; font-weight: 1; width: auto; height: auto; padding: 0.6rem 0.3rem 0.6rem 0.3rem; font-size: 1.4rem; text-align: center; background-color: white; }
+	.flex-item {font-family: Arial; font-weight: 1; width: auto; height: 2.6rem; line-height: 1.4rem; padding: 0.6rem 0.3rem 0.6rem 0.3rem; font-size: 1.4rem; text-align: center; background-color: white; }
 	#bannerdiv {position: fixed; width: 75%; left: 50%; top: 39%; margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
 	/*#centerdiv {width: 75%; margin: auto; border: 0px solid red;}*/
@@ -31,7 +31,7 @@
 
 	/* ABOUT SPECIFIC */
 
-	.break {background-image: url(https://isithappening.github.io/images/other/pattern-wit.png); height: 1rem; width: 100vw;}
+	.break {background-image: url(https://isithappening.github.io/images/other/pattern-wit.png); height: 2.6rem; width: 100vw;}
 	.textfield {width: 50vw; height: 100vh; border: 0px solid red;}
 	.textfield {display: flex; margin: auto; justify-content: center; align-items: center;}
 	.wrapper {text-align: justify; border: 0px solid red;}
