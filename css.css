@@ -10,7 +10,7 @@
 	#menufield {position: fixed; width: 75vw; left: 50%; margin-left: -37.5%; border: 0px solid red; z-index: 2;}
 	.flex-container {padding: 0; margin: 0; list-style: none; display: flex;}
 	.space-between {justify-content: space-between;}
-	.flex-item {font-weight: 1; width: auto; height: auto; line-height: 1.4rem; padding: 0.4rem 0.4rem 0.2rem 0.4rem; font-size: 1.4rem; text-align: center; background-color: white;}
+	.flex-item {font-weight: 1; width: auto; height: auto; line-height: 1.4rem; padding: 0.4rem 0.4rem 0.4rem 0.4rem; font-size: 1.4rem; text-align: center; background-color: white;}
 	#bannerdiv {position: fixed; width: 75%; left: 50%; top: 39%; margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
 	.break {display: none; position: fixed; width: 100vw; background-color: white; background-image: url(https://isithappening.github.io/images/other/pattern.svg); height: 2rem; background-repeat: repeat; z-index: 1;}
