@@ -14,11 +14,10 @@
 	.break {display: none; position: fixed; width: 100vw; background-color: white; background-image: url(https://isithappening.github.io/images/other/pattern.svg); height: 2rem; background-repeat: repeat; z-index: 1;}
 
 	#banner {width: 75vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
-	#banner img {width: 100%;}
+	#banner img {width: 75vw;}
 
 	@media (max-device-width: 1080px) and (orientation: portrait) {
 		html, body {font-size: 32px;}
-		.textfield {text-align: left;}
 	}
 
 	@media (max-device-width: 1080px) and (orientation: landscape) {
