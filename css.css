@@ -5,10 +5,10 @@
 
 	html, body {font-size: 16px;}
 
-	#menufield {position: fixed; width: 75vw; left: 50%; margin-left: -37.5%; background-color: white; border: 0px solid red;}
+	#menufield {position: fixed; width: 75vw; left: 50%; margin-left: -37.5%; border: 0px solid red;}
 	.flex-container {padding: 0; margin: 0; list-style: none; display: flex;}
 	.space-between {justify-content: space-between;}
-	.flex-item {font-family: Arial; font-weight: 1; width: auto; height: 1rem; padding: 0.6rem 0.2rem 0.6rem 0.2rem; font-size: 1.4rem; text-align: center;}
+	.flex-item {font-family: Arial; font-weight: 1; width: auto; height: 1rem; padding: 0.6rem 0.2rem 0.6rem 0.2rem; font-size: 1.4rem; text-align: center; background-color: white; }
 	#bannerdiv {position: fixed; width: 75%; left: 50%; top: 39%; margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
 	#centerdiv {width: 75%; margin: auto; border: 0px solid red;}
