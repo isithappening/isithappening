@@ -31,9 +31,9 @@
 
 	/* ABOUT SPECIFIC */
 
-	.break {position: fixed; width: 100vw; background-image: url(https://isithappening.github.io/images/other/pattern.svg); height: 2.2rem; background-repeat: repeat; z-index: -1;}
+	.break {position: fixed; width: 100vw; background-color: white; background-image: url(https://isithappening.github.io/images/other/pattern.svg); height: 2.2rem; background-repeat: repeat; z-index: -1;}
 	.textfield {width: 50vw; height: 100vh; border: 0px solid red;}
-	.textfield {display: flex; margin: auto; justify-content: center; align-items: center;}
+	.textfield {display: flex; margin: auto; justify-content: center; align-items: center; z-index: -2;}
 	.wrapper {text-align: justify; border: 0px solid red;}
 	.textfield p {display: inline; line-height: 1.6; font-size: 2rem; font-family: Arial;}
 	.logo_in_text {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
