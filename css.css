@@ -3,7 +3,7 @@
 
 	* {margin: 0px; padding: 0px;}
 
-	html, body {font-family: Arial; font-size: 16px;}
+	html, body {font-size: 16px;}
 
 	#menufield {position: fixed; width: 75vw; left: 50%; margin-left: -37.5%; border: 0px solid red; z-index: 2;}
 	.flex-container {padding: 0; margin: 0; list-style: none; display: flex;}
@@ -37,9 +37,9 @@
 	.wrapper {text-align: justify; border: 0px solid red;}
 	.textfield h1 {display: inline; line-height: 1.6;}
 	.logo_in_text1 {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
-	.logo_in_text2 {display: inline-block; max-height: 1.6rem; margin-bottom: -0.264rem; margin-right: 0.33rem; max-width: 100%;}
+	.logo_in_text2 {display: inline-block; max-height: 1.6rem; margin-bottom: -0.264rem; margin-right: 0.264rem; max-width: 100%;}
 
 	/* ... */
 
-	h1 {font-size: 2rem;}
-	h2 {font-size: 1.6rem;}
+	h1 {font-family: Arial; font-size: 2rem;}
+	h2 {font-family: Arial; font-size: 1.6rem;}
