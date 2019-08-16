@@ -31,7 +31,7 @@
 
 	/* ABOUT SPECIFIC */
 
-	.textfield {width: 67vw; height: 100vh; border: 0px solid red;}
+	.textfield {width: 50vw; height: 100vh; border: 0px solid red;}
 	.textfield {display: flex; margin: auto; justify-content: center; align-items: center;}
 	.wrapper {text-align: justify; border: 0px solid red;}
 	.textfield p {display: inline; line-height: 1.6; font-size: 2rem; font-family: Arial;}
