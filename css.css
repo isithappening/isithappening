@@ -3,12 +3,12 @@
 
 	* {margin: 0px; padding: 0px;}
 
-	html, body {font-size: 16px;}
+	html, body {font-family: Arial; font-size: 16px;}
 
 	#menufield {position: fixed; width: 75vw; left: 50%; margin-left: -37.5%; border: 0px solid red; z-index: 2;}
 	.flex-container {padding: 0; margin: 0; list-style: none; display: flex;}
 	.space-between {justify-content: space-between;}
-	.flex-item {font-family: Arial; font-weight: 1; width: auto; height: auto; line-height: 1.4rem; padding: 0.4rem 0.4rem 0.2rem 0.4rem; font-size: 1.4rem; text-align: center; background-color: white;}
+	.flex-item {font-weight: 1; width: auto; height: auto; line-height: 1.4rem; padding: 0.4rem 0.4rem 0.2rem 0.4rem; font-size: 1.4rem; text-align: center; background-color: white;}
 	#bannerdiv {position: fixed; width: 75%; left: 50%; top: 39%; margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
 	/*#centerdiv {width: 75%; margin: auto; border: 0px solid red;}*/
@@ -35,7 +35,11 @@
 	.textfield {width: 50vw; height: 100vh; border: 0px solid red;}
 	.textfield {display: flex; margin: auto; justify-content: center; align-items: center;}
 	.wrapper {text-align: justify; border: 0px solid red;}
-	.textfield p {display: inline; line-height: 1.6; font-size: 2rem; font-family: Arial;}
-	.logo_in_text {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
+	.textfield h1 {display: inline; line-height: 1.6;}
+	.logo_in_text1 {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
+	.logo_in_text2 {display: inline-block; max-height: 1.6rem; margin-bottom: -0.264rem; margin-right: 0.33rem; max-width: 100%;}
 
 	/* ... */
+
+	h1 {font-size: 2rem;}
+	h2 {font-size: 1.6rem;}
