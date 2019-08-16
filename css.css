@@ -31,7 +31,7 @@
 
 	/* ABOUT SPECIFIC */
 
-	.break {position: fixed; width: 100vw; background-color: white; background-image: url(https://isithappening.github.io/images/other/pattern2.svg); height: 2rem; background-repeat: repeat; z-index: 1;}
+	.break {position: fixed; width: 100vw; background-color: white; background-image: url(https://isithappening.github.io/images/other/pattern.svg); height: 2rem; background-repeat: repeat; z-index: 1;}
 	.textfield {width: 50vw; height: 100vh; border: 0px solid red;}
 	.textfield {display: flex; margin: auto; justify-content: center; align-items: center;}
 	.wrapper {text-align: justify; border: 0px solid red;}
