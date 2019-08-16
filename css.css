@@ -28,8 +28,8 @@
 
 	a:link {text-decoration: none; color: black;}
 	a:visited {text-decoration: none; color: black;}
-	a:hover {border-bottom: 0.1rem black solid;}
-	.active {border-bottom: 0.1rem black solid;}
+	a:hover {border-bottom: 0.2rem black solid;}
+	.active {border-bottom: 0.2rem black solid;}
 
 	/* ABOUT SPECIFIC */
 
@@ -47,5 +47,5 @@
 
 	/* ... */
 
-	h1 {font-family: Arial; 	font-size: 2rem; font-weight: 1; display: inline; line-height: 1.6;}
+	h1 {font-family: Arial; font-size: 2rem; font-weight: 1; display: inline; line-height: 1.6;}
 	h2 {font-family: Arial; font-size: 1.6rem; font-weight: 1; display: inline; line-height: 1.6;}
