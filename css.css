@@ -33,7 +33,7 @@
 
 	.textfield {width: 80%; height: 100vh; border: 0px solid red;}
 	.textfield {display: flex; justify-content: center; align-items: center;}
-	.wrapper {text-align: justify;}
+	.wrapper {justify-content: center; text-align: justify;}
 	.textfield p {display: inline; line-height: 1.6; font-size: 2rem; font-family: Arial;}
 	.logo_in_text {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
 
