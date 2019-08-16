@@ -28,8 +28,8 @@
 
 	a:link {text-decoration: none; color: black;}
 	a:visited {text-decoration: none; color: black;}
-	a:hover {border-bottom: 0.2rem black solid;}
-	.active {border-bottom: 0.2rem black solid;}
+	a:hover {border-bottom: 5px black solid;}
+	.active {border-bottom: 5px black solid;}
 
 	/* ABOUT SPECIFIC */
 
