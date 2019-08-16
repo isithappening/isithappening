@@ -7,13 +7,13 @@
 
 	body {font-family: Arial;}
 
-	#menufield {position: fixed; width: 75vw; left: 50%; margin-left: -37.5%; border: 0px solid red; border-bottom: 0.2rem solid white; z-index: 2;}
+	#menufield {position: fixed; width: 75vw; left: 50%; margin-left: -37.5%; border: 0px solid red; z-index: 2;}
 	.flex-container {padding: 0; margin: 0; list-style: none; display: flex;}
 	.space-between {justify-content: space-between;}
 	.flex-item {font-weight: 1; width: auto; height: auto; line-height: 1.4rem; padding: 0.4rem 0.4rem 0.2rem 0.4rem; font-size: 1.4rem; text-align: center; background-color: white;}
 	#bannerdiv {position: fixed; width: 75%; left: 50%; top: 39%; margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
-	/*#centerdiv {width: 75%; margin: auto; border: 0px solid red;}*/
+	.break {position: fixed; width: 100vw; background-color: white; border-bottom: 0.1rem solid white; background-image: url(https://isithappening.github.io/images/other/pattern.svg); height: 2rem; background-repeat: repeat; z-index: 1;}
 
 	@media (max-device-width: 1080px) and (orientation: portrait) {
 		html, body {font-size: 32px;}
@@ -33,7 +33,7 @@
 
 	/* ABOUT SPECIFIC */
 
-	.break {position: fixed; width: 100vw; background-color: white; background-image: url(https://isithappening.github.io/images/other/pattern.svg); height: 2rem; background-repeat: repeat; z-index: 1;}
+	
 	.textfield {width: 50vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
 	.wrapper {text-align: justify; border: 0px solid red;}
 	.logo_in_text1 {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
