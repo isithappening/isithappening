@@ -7,7 +7,7 @@
 
 	#bannerdiv {position: fixed; width: 75%; left: 50%; top: 39%; margin-left: -37.5%;}
 	#bannerdiv img {max-width: 100%;}
-	#centerdiv {width: 75%; margin: auto;}
+	#centerdiv {width: 75%; margin: auto; border: 1px solid red;}
 	.flex-container {padding: 0; margin: 0; list-style: none; display: flex;}
 	.space-between {justify-content: space-between;}
 	.flex-item {font-family: Arial; font-weight: 1; width: auto; height: 1rem; margin: 0.2rem; margin-top: 0.6rem; margin-bottom: 0.6rem; line-height: 1; color: black; font-size: 1.4rem; text-align: center;}
@@ -31,8 +31,9 @@
 	/* ABOUT SPECIFIC */
 
 	#menufield {border: 0px solid red;}
-	.textfield {width: 100%; height: 100%; text-align: justify; border: 1px solid red;}
+	.textfield {width: 100%; height: 500px; border: 1px solid red;}
 	.textfield {display: flex; justify-content: center; align-items: center;}
+	.wrapper {text-align: justify;}
 	.textfield p {display: inline; line-height: 1.6; font-size: 2rem; font-family: Arial;}
 	.logo_in_text {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
 
