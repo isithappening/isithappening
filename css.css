@@ -32,8 +32,8 @@
 	.active {text-decoration: none;}
 
 	/* ABOUT */	
-	.textfield {width: 50vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red; line-height: 1.5;}
-	.wrapper {text-align: justify; border: 0px solid red; margin-bottom: 2rem; display: flex;}
+	.textfield {width: 50vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
+	.wrapper {text-align: justify; border: 0px solid red; margin-bottom: 2rem;}
 	.logo_in_text1 {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
 	.logo_in_text2 {display: inline-block; max-height: 1.6rem; margin-bottom: -0.264rem; margin-right: 0.264rem; max-width: 100%;}
 
@@ -48,5 +48,6 @@
 
 
 	/* FONTS */
-	h1 {font-family: Arial; font-size: 2rem; font-weight: 1; display: inline; line-height: 1.6;}
+	h1 {font-family: Arial; font-size: 2rem; font-weight: 1; display: inline; line-height: 2;}
 	h2 {font-family: Arial; font-size: 1.6rem; font-weight: 1; display: inline; line-height: 1.6;}
+	h3 {font-family: Arial; font-size: 1.2rem; font-weight: 1; display: inline; line-height: 1.2;}
