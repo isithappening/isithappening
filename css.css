@@ -25,10 +25,8 @@
 
 	/* LINKS */
 	a:link {text-decoration: none; color: black;}
-	.textfield a:link {text-decoration: underline; color: black;}
 	a:visited {text-decoration: none; color: black;}
 	a:hover {text-decoration: underline;}
-	.active {text-decoration: none;}
 
 	/* ABOUT */	
 	.textfield {width: 50vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
