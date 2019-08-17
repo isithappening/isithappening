@@ -28,7 +28,7 @@
 
 	a:link {text-decoration: none; color: black;}
 	.textfield a:link {text-decoration: underline; color: black;}
-	.contactlink {text-decoration: none; color: black;}
+	.contactfield a:link {text-decoration: none; color: black;}
 	a:visited {text-decoration: none; color: black;}
 	a:hover {text-decoration: underline;}
 	.active {text-decoration: none;}
