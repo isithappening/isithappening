@@ -27,7 +27,7 @@
 	/* LINKS */
 
 	a:link {text-decoration: none; color: black;}
-	h2 a:link {text-decoration: underline; color: black;}
+	.textfield a:link {text-decoration: underline; color: black;}
 	a:visited {text-decoration: none; color: black;}
 	a:hover {text-decoration: underline;}
 	.active {text-decoration: none;}
