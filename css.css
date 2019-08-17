@@ -34,7 +34,7 @@
 	/* ABOUT SPECIFIC */
 
 	
-	.textfield {width: 50vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red; line-height: 1.5}
+	.textfield {width: 50vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red; line-height: 1.5; margin-bottom: -2rem;}
 	.wrapper {text-align: justify; border: 0px solid red;}
 	.logo_in_text1 {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
 	.logo_in_text2 {display: inline-block; max-height: 1.6rem; margin-bottom: -0.264rem; margin-right: 0.264rem; max-width: 100%;}
