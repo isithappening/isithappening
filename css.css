@@ -40,7 +40,8 @@
 	.img {width: 100vw; height: auto;}
 
 	/* HAPPENINGS */
-	.pdffield {width: 33vw; height: 80vh; display: flex; margin: auto; justify-content: center; align-items: center; margin-top: 10vh; border: 0px solid red;}
+	.pdffield {width: 33vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
+	.pdffield .wrapper {height: auto; width: auto; margin-top: 10vh;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
