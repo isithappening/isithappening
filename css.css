@@ -40,9 +40,7 @@
 	.img {width: 100vw; height: auto;}
 
 	/* HAPPENINGS */
-	.pdffield .wrapper {
-		width: 50vw; height: 80vh;
-	}
+	.pdffield .wrapper {width: 50vw; height: 80vh; border: 0px solid red;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
