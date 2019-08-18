@@ -41,7 +41,7 @@
 
 	/* HAPPENINGS */
 	.pdffield {width: 33vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
-	.pdffield .wrapper {width: 33vw; height: 80vh;  margin-top: 10vh;}
+	.pdffield .wrapper {width: 33vw; height: 80vh;  margin-top: 7.5vh;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
