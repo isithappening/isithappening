@@ -39,6 +39,11 @@
 	.imgfield {display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
 	.img {width: 100vw; height: auto;}
 
+	/* HAPPENINGS */
+	.pdffield .wrapper {
+		width: 50vw; height: 80vh;
+	}
+
 	/* CONTACT */
 	.contactfield {text-align: center;}
 
