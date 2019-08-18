@@ -12,7 +12,7 @@
 			html, body {font-size: 16px;}
 		}
 
-	iframe {height: 50%; width: 50%;}
+	iframe {height: 100%; width: 100%;}
 
 	/* MENU */
 	#menufield {position: fixed; width: 75vw; left: 50%; margin-left: -37.5%; border: 0px solid red; z-index: 2;}
