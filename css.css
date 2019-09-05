@@ -25,10 +25,12 @@
 	#banner {width: 75vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
 	#banner img {width: 75vw;}
 
-	/* LINKS */
+	/* LINKS + FX */
 	a:link {text-decoration: none; color: black;}
 	a:visited {text-decoration: none; color: black;}
 	a:hover {text-decoration: underline;}
+
+	.tile:hover {opacity: 0.3;}
 
 	/* ABOUT */	
 	.textfield {width: 50vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
@@ -42,7 +44,7 @@
 	/* HAPPENINGS */
 	.tilefield {width: 75vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
 	.wrapper {border: 0px solid red;}
-	.tile {min-width: 210px; height: auto;}
+	.tile {min-width: 210px; height: auto; transition: .5s ease; backface-visibility: hidden;}
 	.posterwhite {border: 1px solid black;}
 
 	/* CONTACT */
