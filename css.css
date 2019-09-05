@@ -48,7 +48,9 @@
 	.tile_overview:hover {opacity: 0.3;}
 
 	.posterfield {padding: 0; margin: 0; list-style: none; display: flex; justify-content: space-between; align-items: center;}
-	.tile_AX {width: 120px; height: auto; margin: auto;}
+	.tile_AX {margin: auto;}
+	.tile_AX img {width: 120px; height: auto;}
+
 	.tile_white {border: 1px solid black;}
 
 	/* CONTACT */
