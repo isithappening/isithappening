@@ -12,6 +12,10 @@
 			html, body {font-size: 16px;}
 		}
 
+	@media (max-device-width: 1080px) and (orientation: landscape) {
+		.tile {width: 440px; margin: 40px;}
+	}
+
 	iframe {height: 100%; width: 100%;}
 
 	/* MENU */
