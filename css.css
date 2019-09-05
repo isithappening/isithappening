@@ -40,13 +40,13 @@
 	.img {width: 100vw; height: auto;}
 
 	/* HAPPENINGS */
-	.pdffield {width: 33vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
-	.pdffield .wrapper {width: 33vw; height: 80vh;  margin-top: 7.5vh;}
+	.tilefield {width: 20vw; height: auto; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
+	.tilefield .wrapper {width: 33vw; height: 80vh;  margin-top: 7.5vh;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
 
-
+	/* MAP */
 	#map {width: 100vw; height: 67vh;}
 
 
