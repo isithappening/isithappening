@@ -40,8 +40,9 @@
 	.img {width: 100vw; height: auto;}
 
 	/* HAPPENINGS */
-	.tilefield {width: 20vw; height: auto; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
-	.tilefield .wrapper {width: 33vw; height: 80vh;  margin-top: 7.5vh;}
+	.tilefield {display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
+	.wrapper {text-align: justify; border: 0px solid red; margin-bottom: 2rem;}
+	.tile {width: 20vw; height: auto;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
