@@ -49,7 +49,10 @@
 	.tilefield {width: 75vw; height: 100vh; display: flex; margin: auto; justify-content: space-between; align-items: center; border: 0px solid red;}
 	.wrapper {margin: auto; border: 0px solid red;}
 	.tile_overview {width: 210px; height: auto; transition: .5s ease; backface-visibility: hidden; margin: 20px;}
-	.tile_AX {width: 120px; height: auto; margin: 10px; border: 1px solid black;}
+	/* .tile_AX {width: 120px; height: auto; margin: 10px; border: 1px solid black;}
+	*/
+
+	.posterfield {padding: 0; margin: 0; list-style: none;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
