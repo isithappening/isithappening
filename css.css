@@ -41,8 +41,9 @@
 
 	/* HAPPENINGS */
 	.tilefield {display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
-	.wrapper {text-align: justify; border: 0px solid red; margin-bottom: 2rem;}
+	.wrapper {border: 0px solid red;}
 	.tile {width: 20vw; height: auto;}
+	.posterwhite {border: 1px solid black;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
