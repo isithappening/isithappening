@@ -42,7 +42,7 @@
 	/* HAPPENINGS */
 	.tilefield {display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
 	.wrapper {border: 0px solid red;}
-	.tile {width: 20vw; height: auto;}
+	.tile {width: 210px; height: auto;}
 	.posterwhite {border: 1px solid black;}
 
 	/* CONTACT */
