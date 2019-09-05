@@ -33,7 +33,7 @@
 	a:hover {text-decoration: underline;}
 
 	/* ABOUT */	
-	.textfield {width: 50vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
+	#textfield {width: 50vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
 	.textfield_wrapper {text-align: justify; border: 0px solid red; margin-bottom: 2rem;}
 	.logo_in_text1 {display: inline-block; max-height: 2rem; margin-bottom: -0.33rem; margin-right: 0.33rem; max-width: 100%;}
 	.logo_in_text2 {display: inline-block; max-height: 1.6rem; margin-bottom: -0.264rem; margin-right: 0.264rem; max-width: 100%;}
@@ -49,6 +49,7 @@
 
 	#posterfield {width: 75vw; height: 100vh; margin: auto; display: flex; align-items: center;}
 	.poster_wrapper {width: 75vw; display: flex; margin: auto; justify-content: space-between; flex-wrap: wrap; padding-top: 2rem;}
+	.poster_textfield {padding: 5%;}
 	.tile_AX {width: 120px; height: auto; margin: 10px;}
 
 	.tile_white {border: 1px solid black;}
