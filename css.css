@@ -49,17 +49,18 @@
 	.tilefield {width: 75vw; height: 100vh; display: flex; margin: auto; justify-content: space-between; align-items: center; border: 0px solid red;}
 	.wrapper {margin: auto; border: 0px solid red;}
 	.tile_overview {width: 210px; height: auto; transition: .5s ease; backface-visibility: hidden; margin: 20px;}
+
 	/* .tile_AX {width: 120px; height: auto; margin: 10px; border: 1px solid black;}
 	*/
 
-	.posterfield {padding: 0; margin: 0; list-style: none;}
+	.posterfield {padding: 0; margin: 0; list-style: none; justify-content: space-between;}
+	.tile_AX {width: 120px; height: auto; margin: auto; border: 1px solid black;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
 
 	/* MAP */
 	#map {width: 100vw; height: 67vh;}
-
 
 	/* FONTS */
 	h1 {font-family: Arial; font-size: 2rem; font-weight: 1; display: inline; line-height: 1.6;}
