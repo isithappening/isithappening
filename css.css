@@ -49,7 +49,7 @@
 
 	#posterfield {width: 75vw; height: 100vh; display: flex; justify-content: space-between; align-items: center;}
 	.posterfield_wrapper {margin: auto;}
-	.tile_AX img {width: 120px; height: auto; margin: auto;}
+	.tile_AX {width: 120px; height: auto; margin: auto;}
 
 	.tile_white {border: 1px solid black;}
 
