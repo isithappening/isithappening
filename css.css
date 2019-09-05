@@ -47,7 +47,7 @@
 	.tile_overview {width: 210px; height: auto; transition: .5s ease; backface-visibility: hidden; margin: 20px;}
 	.tile_overview:hover {opacity: 0.3;}
 
-	#posterfield {width: 75vw; height: 100vh; display: flex; justify-content: space-between; align-items: center;}
+	#posterfield {width: 75vw; height: 100vh; display: flex; margin: auto; justify-content: space-between; align-items: center;}
 	.posterfield_wrapper {margin: auto;}
 	.tile_AX {width: 120px; height: auto; margin: auto;}
 
