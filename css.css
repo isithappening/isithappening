@@ -44,7 +44,7 @@
 	/* HAPPENINGS */
 	.tilefield {width: 75vw; height: 100vh; display: flex; margin: auto; justify-content: center; align-items: center; border: 0px solid red;}
 	.wrapper {border: 0px solid red;}
-	.tile {width: 210px; height: auto; transition: .5s ease; backface-visibility: hidden; padding: 50px;}
+	.tile {width: 210px; height: auto; transition: .5s ease; backface-visibility: hidden; padding: 40px;}
 	.posterwhite {border: 1px solid black;}
 
 	/* CONTACT */
