@@ -54,8 +54,8 @@
 	*/
 
 	.posterfield {padding: 0; margin: 0; list-style: none; display: flex; justify-content: space-between; align-items: center;}
-	.tile_AX {width: 120px; height: auto; margin: auto;}
-	.posterwhite {border: 1px solid black;}
+	.tile_AX {margin: auto;}
+	.posterwhite {width: 120px; height: auto; border: 1px solid black;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
