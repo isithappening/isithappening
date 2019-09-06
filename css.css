@@ -47,6 +47,8 @@
 	.tile_overview {width: 210px; height: auto; transition: .5s ease; backface-visibility: hidden; margin: 20px;}
 	.tile_overview:hover {opacity: 0.3;}
 
+	.tile_white {border: 1px solid black;}
+
 	/* IIH03 */
 	#posterfield {width: 75vw; margin: auto;}
 	.poster_wrapper {width: 75vw; display: flex; margin: auto; align-content: stretch; flex-wrap: wrap; padding-top: 12vh; padding-bottom: 12vh;}
@@ -54,8 +56,8 @@
 	.poster_textfield {width: 67%; text-align: left; hyphens: auto;}
 	.tile_AX {width: 120px; height: auto; margin: 10px; transition: .5s ease; backface-visibility: hidden;}
 	.tile_AX:hover {opacity: 0.3;}
-
-	.tile_white {border: 1px solid black;}
+	.disclaimer {text-align: right;}
+	.x-y {display: inline-block;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
@@ -68,3 +70,4 @@
 	h2 {font-family: Arial; font-size: 1.6rem; font-weight: 1; display: inline; line-height: 1.6;}
 	h3 {font-family: Arial; font-size: 1.2rem; font-weight: 1; display: inline; line-height: 1.5;}
 	h4 {font-family: Arial; font-size: 1.0rem; font-weight: 1; display: inline; line-height: 1.5;}
+	h5 {font-family: Arial; font-size: 0.8rem; font-weight: 1; display: inline; line-height: 1.5;}
