@@ -50,7 +50,7 @@
 	/* IIH03 */
 	#posterfield {width: 75vw; margin: auto;}
 	.poster_wrapper {width: 75vw; display: flex; margin: auto; justify-content: space-between; flex-wrap: wrap; padding-top: 2rem; padding-bottom: 2rem;}
-	.poster_textfield {width: 50vw; padding-top: 20vh; text-align: left;}
+	.poster_textfield {width: 50vw; padding-top: 20vh; text-align: left; hyphens: auto;}
 	.tile_AX {width: 120px; height: auto; margin: 10px;}
 
 	.tile_white {border: 1px solid black;}
