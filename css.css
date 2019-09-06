@@ -48,7 +48,7 @@
 	.poster_wrapper {width: 75vw; display: flex; margin: auto; justify-content: space-between; flex-wrap: wrap; padding-top: 15vh; padding-bottom: 15vh;}
 	.poster_textfield_intro {padding-top: 20vh;}
 	.poster_textfield {width: 67%; text-align: left; hyphens: auto;}
-	.tile_AX {width: 120px; height: auto; margin: 10px;}
+	.tile_AX {width: 120px; height: auto; margin: 10px; flex-grow: 1.2;}
 
 	.tile_white {border: 1px solid black;}
 
