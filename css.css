@@ -45,10 +45,10 @@
 
 	/* IIH03 */
 	#posterfield {width: 75vw; margin: auto;}
-	.poster_wrapper {width: 75vw; display: flex; margin: auto; justify-content: space-between; flex-wrap: wrap; padding-top: 12vh; padding-bottom: 12vh;}
+	.poster_wrapper {width: 75vw; display: flex; margin: auto; justify-content: space-between; flex-wrap: wrap; flex-grow: 1.1; padding-top: 12vh; padding-bottom: 12vh;}
 	.poster_textfield_intro {padding-top: 20vh;}
 	.poster_textfield {width: 67%; text-align: left; hyphens: auto;}
-	.tile_AX {width: 120px; height: auto; margin: 10px; flex-grow: 1.2;}
+	.tile_AX {width: 120px; height: auto; margin: 10px;}
 
 	.tile_white {border: 1px solid black;}
 
