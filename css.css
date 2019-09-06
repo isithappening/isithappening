@@ -51,14 +51,12 @@
 
 	/* IIH03 */
 	#posterfield {width: 75vw; margin: auto;}
-	.poster_wrapper {width: 75vw; display: flex; margin: auto; align-content: stretch; flex-wrap: wrap; padding-top: 12vh; padding-bottom: 2rem;}
+	.poster_wrapper {width: 75vw; display: flex; margin: auto; align-content: stretch; flex-wrap: wrap; padding-top: 12vh;}
 	.poster_textfield_intro {padding-top: 20vh;}
 	.poster_textfield {width: 67%; text-align: left; hyphens: auto;}
 	.tile_AX {width: 120px; height: auto; margin: 10px; transition: .5s ease; backface-visibility: hidden;}
 	.tile_AX:hover {opacity: 0.3;}
-	.note {width: 75vw; height: auto; padding-top: 1rem;}
-	.disclaimer {float: right;}
-	.x-y {display: inline-block; height: 2rem;}
+	.note {padding-top: 1rem;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
