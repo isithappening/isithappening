@@ -57,6 +57,7 @@
 	.tile_AX {width: 120px; height: auto; margin: 10px; transition: .5s ease; backface-visibility: hidden;}
 	.tile_AX:hover {opacity: 0.3;}
 	.note {padding-top: 1rem;}
+	.disclaimer {padding-top: 12vh;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
