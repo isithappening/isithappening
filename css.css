@@ -56,7 +56,8 @@
 	.poster_textfield {width: 67%; text-align: left; hyphens: auto;}
 	.tile_AX {width: 120px; height: auto; margin: 10px; transition: .5s ease; backface-visibility: hidden;}
 	.tile_AX:hover {opacity: 0.3;}
-	.note {bottom: 1rem; text-align: right;}
+	.note {padding-top: 1rem;}
+	.disclaimer {bottom: 1rem; text-align: right;}
 
 	/* CONTACT */
 	.contactfield {text-align: center;}
