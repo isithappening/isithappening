@@ -7936,7 +7936,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		this._image_1.onclick=function (e) {
-			player.openUrl("https:\/\/bayhouse.nl","_blank");
+			player.openUrl("https:\/\/isithappening.nl","_blank");
 		}
 		this._image_1.ggUpdatePosition=function (useTransition) {
 		}
