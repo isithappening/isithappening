@@ -47,7 +47,7 @@
 	.tile_overview {width: 210px; height: 297px; transition: .5s ease; backface-visibility: hidden; margin: 20px;}
 	.tile_overview:hover {opacity: 0.3;}
 
-	.tile_white {border: 1px solid gray;}
+	.tile_white {border: 1px solid lightgray;}
 
 	/* IIH03 */
 	#posterfield {width: 75vw; margin: auto;}
